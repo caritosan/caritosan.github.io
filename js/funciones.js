@@ -7,9 +7,11 @@ console.log('Tomando el archivo funciones.js');
 
 // Ejemplo tomado de https://randomuser.me/
 // (Para usar con la librería jquery)
+// Para elegir género, edad, etc
+// https://randomuser.me/documentation#gender
 
 $.ajax({
-  url: 'https://randomuser.me/api/?gender=female',
+  url: 'https://randomuser.me/api/?gender=female&nat=es',
   dataType: 'json',
   success: function(data) {
     console.log(data);
