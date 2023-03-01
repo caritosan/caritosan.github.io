@@ -11,19 +11,43 @@
 }
 #datos {
 	padding: 20px;
+	padding-left: 36px;
 	background-color: #00bcd4;
 	color: white;
 	border-radius: 10px;
 }
-#foto {
+#datos ul {
+    padding-left: 0;
+}
+#datos li {
+    list-style: none;
+}
+#datos #foto {
 	border-radius: 100px;
     border: 6px solid white;
     color: white;
 }
-
-h2 {
-    margin-top: 60px;
+#datos #nombre {
+	margin-top: 20px;
 }
+
+
+#contenido h2 {
+    margin-top: 60px;
+    color: #00bcd4;
+}
+#contenido h3 {
+    color: #607d8b;
+    margin: 6px 0;
+}
+#contenido h4 {
+    font-weight: 300;
+}
+#contenido h4 span {
+    font-size: 0.7em;
+    color: #607d8b;
+}
+
 
 footer {
 	background-color: #00bcd4;
